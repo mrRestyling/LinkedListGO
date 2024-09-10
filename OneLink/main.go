@@ -39,12 +39,6 @@ func addInList() {
 	ListADD(head, 3)
 	ListADD(head, 4)
 	ListADD(head, 5)
-
-	// for head != nil {
-	// 	fmt.Print(head.Val, " ")
-	// 	head = head.Next
-	// }
-
 	ListDEL(head, 666)
 
 	for head != nil {

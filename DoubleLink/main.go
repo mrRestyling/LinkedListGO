@@ -38,8 +38,6 @@ func CreateEx2() {
 
 	dl := NewDL()
 
-	// dl := &DoublyList{}
-
 	dl.AppendDl(1)
 	dl.AppendDl(2)
 	dl.AppendDl(3)
@@ -101,7 +99,6 @@ func (DL *DoublyList) Insert(val int, index int) {
 		fmt.Println("Некорректный индекс")
 		return
 	}
-
 	if index == 0 {
 		DL.UpAppend(val)
 		return
