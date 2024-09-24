@@ -8,8 +8,8 @@ type List struct {
 }
 
 func main() {
-	// printList()
-	addInList()
+	printList()
+	// addInList()
 
 }
 
