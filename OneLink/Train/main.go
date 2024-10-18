@@ -13,11 +13,6 @@ func main() {
 
 	myList := Add(arr)
 
-	// for myList != nil {
-	// 	fmt.Println(myList.Val)
-	// 	myList = myList.Node
-	// }
-
 	resultList := Reverse(myList)
 
 	for resultList != nil {

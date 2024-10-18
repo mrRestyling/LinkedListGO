@@ -46,7 +46,6 @@ func CreateEx2() {
 	dl.Remove(666)
 
 	dl.PrintALL()
-
 }
 
 func NewDL() *DoublyList {
